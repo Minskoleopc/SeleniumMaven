@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 13 20:30:43 IST 2025</td>
+<td>Started on:</td><td>Mon Feb 17 19:56:03 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (108 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (133 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,14 +76,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.example.test.HardAssertionsExample.testOne()'><b>testOne</b><br>Test class: com.example.test.HardAssertionsExample</td>
-<td><div><pre>java.lang.AssertionError: Title does not match expected [Hell] but found [Hello]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at com.example.test.HardAssertionsExample.testOne(HardAssertionsExample.java:14)
+<td title='com.example.test.SoftAsserionsExample.testThree()'><b>testThree</b><br>Test class: com.example.test.SoftAsserionsExample</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Title does not match expected [Google] but found [google],
+	value should be false expected [false] but found [true]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.example.test.SoftAsserionsExample.testThree(SoftAsserionsExample.java:20)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -112,14 +111,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1042306518", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1042306518'><pre>java.lang.AssertionError: Title does not match expected [Hell] but found [Hello]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at com.example.test.HardAssertionsExample.testOne(HardAssertionsExample.java:14)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1358343316", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1358343316'><pre>java.lang.AssertionError: The following asserts failed:
+	Title does not match expected [Google] but found [google],
+	value should be false expected [false] but found [true]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.example.test.SoftAsserionsExample.testThree(SoftAsserionsExample.java:20)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -150,31 +148,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.example.test.HardAssertionsExample@1c7696c6</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.example.test.HardAssertionsExample.testThree()'><b>testThree</b><br>Test class: com.example.test.HardAssertionsExample</td>
-<td></td>
-<td>0</td>
-<td>com.example.test.HardAssertionsExample@1c7696c6</td></tr>
-<tr>
-<td title='com.example.test.HardAssertionsExample.testFour()'><b>testFour</b><br>Test class: com.example.test.HardAssertionsExample</td>
-<td></td>
-<td>0</td>
-<td>com.example.test.HardAssertionsExample@1c7696c6</td></tr>
-<tr>
-<td title='com.example.test.HardAssertionsExample.testTwo()'><b>testTwo</b><br>Test class: com.example.test.HardAssertionsExample</td>
-<td></td>
-<td>0</td>
-<td>com.example.test.HardAssertionsExample@1c7696c6</td></tr>
+<td>com.example.test.SoftAsserionsExample@1ffaf86</td></tr>
 </table><p>
 </body>
 </html>
